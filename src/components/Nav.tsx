@@ -37,13 +37,13 @@ export default function Nav() {
         <nav className="bg-black fixed w-full z-20">
             <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
             <div className="flex items-center">
-                    <button className='hidden lg:block text-2xl font-semibold bg-yellow-400 text-black p-8 px-12'>
+                    <button className='hidden lg:block text-2xl font-semibold bg-white text-black p-8 px-12'>
                         SHOP
                     </button>
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-yellow-200 py-2 border-t-2 border-yellow-300' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-t-2 border-white' : ''}`}
                         onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
