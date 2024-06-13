@@ -11,7 +11,7 @@ export default function Card() {
                     <div className="bg-white flex flex-col items-center text-white text-center w-full lg:w-1/3 lg:mb-0">
                         <Image src={card} alt="Texto" width={550} height={32} />
                     </div>
-                    <div className="bg-white flex flex-row items-center text-white p-2 px-12 text-center w-full lg:w-1/1 lg:mb-0">
+                    <div className="bg-white flex flex-row items-center text-white p-2 px-12 text-center w-full lg:w-1/1 lg:mb-0 shadow-xl">
                         <Image src={card2} alt="Texto" width={150} height={32} />
                         <h1 className="text-xl font-semibold mb-2">Delicious Latte</h1>
                         <h2 className="text-gray-500  text-md  font-semibold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>

@@ -34,7 +34,7 @@ export default function Nav() {
     };
 
     return (
-        <nav className="bg-black fixed w-full z-20">
+        <nav className="bg-black fixed w-full z-50">
             <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
             <div className="flex items-center">
                     <button className='hidden lg:block text-2xl font-semibold bg-white text-black p-8 px-12'>
