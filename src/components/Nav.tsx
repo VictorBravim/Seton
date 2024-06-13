@@ -43,23 +43,23 @@ export default function Nav() {
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-t-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
                         onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
-                        onClick={() => scrollToSection('sobre')}>
+                        className={`text-base md:text-lg ${activeSection === 'about' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
+                        onClick={() => scrollToSection('about')}>
                         ABOUT
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'carros' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
-                        onClick={() => scrollToSection('carros')}>
-                        PODUCTS
+                        className={`text-base md:text-lg ${activeSection === 'products' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
+                        onClick={() => scrollToSection('products')}>
+                        PRODUCTS
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
-                        onClick={() => scrollToSection('contato')}>
+                        className={`text-base md:text-lg ${activeSection === 'contact' ? 'bg-transparent text-white py-2 border-t-2 border-yellow-500' : ''}`}
+                        onClick={() => scrollToSection('contact')}>
                         CONTACT
                     </button>
                 </div>
