@@ -6,6 +6,7 @@ import Icons from '@/components/Icons';
 import About from '@/components/About';
 import Selectors from '@/components/Selectors';
 import Products from '@/components/Products';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Selectors />
       <Products />
+      <Contact />
     </main>
   );
 }
