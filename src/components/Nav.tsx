@@ -11,11 +11,11 @@ export default function Nav() {
         if (scrollPosition < window.innerHeight - 100) {
             setActiveSection('home');
         } else if (scrollPosition < 2 * window.innerHeight - 100) {
-            setActiveSection('carros');
+            setActiveSection('about');
         } else if (scrollPosition < 3 * window.innerHeight - 100) {
-            setActiveSection('sobre');
+            setActiveSection('products');
         } else {
-            setActiveSection('contato');
+            setActiveSection('contact');
         }
     };
 
