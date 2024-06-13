@@ -1,7 +1,7 @@
 // Selectors.tsx
 export default function Selectors() {
     return (
-        <div className="w-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 mt-s" style={{ marginTop: '2750px' }}>
+        <div className="w-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20" style={{ marginTop: '2750px' }}>
             <div className="hidden lg:block">
                 <div className="container mx-auto flex flex-col lg:flex-row justify-center">
                     <div className="bg-transparent flex justify-center items-center text-black text-center w-full lg:w-1/1 lg:mb-0">
