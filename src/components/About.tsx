@@ -19,7 +19,7 @@ export default function About() {
         };
     }, []);
 
-    const backgroundImage = isMobile ? "/bg-mobile2.png" : "/bg2.png";
+    const backgroundImage = isMobile ? "/bg-mobile2.webp" : "/bg2.webp";
 
     return (
         <div id="about" className="h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 pb-12 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>

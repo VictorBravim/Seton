@@ -1,11 +1,11 @@
 // Products.tsx
 import Image from "next/image";
-import chair from "@/assets/chair.png";
-import sofa from "@/assets/sofa.png";
-import office from "@/assets/office.png";
-import stools from "@/assets/stools.png";
-import lamps from "@/assets/lamp.png";
-import clock from "@/assets/clock.png";
+import chair from "@/assets/chair.webp";
+import sofa from "@/assets/sofa.webp";
+import office from "@/assets/office.webp";
+import stools from "@/assets/stools.webp";
+import lamps from "@/assets/lamp.webp";
+import clock from "@/assets/clock.webp";
 
 export default function Products() {
     return (

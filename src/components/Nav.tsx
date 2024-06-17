@@ -12,7 +12,7 @@ export default function Nav() {
             setActiveSection('home');
         } else if (scrollPosition < 2 * window.innerHeight - 100) {
             setActiveSection('about');
-        } else if (scrollPosition < 3 * window.innerHeight - 100) {
+        } else if (scrollPosition < 3 * window.innerHeight - 50) {
             setActiveSection('products');
         } else {
             setActiveSection('contact');

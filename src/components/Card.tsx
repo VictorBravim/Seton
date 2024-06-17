@@ -1,7 +1,7 @@
 // Card.tsx
 import Image from "next/image";
-import card from '@/assets/card.png'
-import card2 from '@/assets/card2.png'
+import card from '@/assets/card.webp'
+import card2 from '@/assets/card2.webp'
 
 export default function Card() {
     return (

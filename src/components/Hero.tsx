@@ -19,7 +19,7 @@ export default function Hero() {
         };
     }, []);
 
-    const backgroundImage = isMobile ? "/bg-mobile.png" : "/bg.png";
+    const backgroundImage = isMobile ? "/bg-mobile.webp" : "/bg.webp";
 
     return (
         <div id="home" className="h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-64 pb-12 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>

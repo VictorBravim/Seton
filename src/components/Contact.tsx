@@ -19,10 +19,10 @@ export default function Contact() {
         };
     }, []);
 
-    const backgroundImage = isMobile ? "/bg-mobile.png" : "/bg3.png";
+    const backgroundImage = isMobile ? "/bg-mobile.webp" : "/bg3.webp";
 
     return (
-        <div id="contact" className="h-full lg:h-screen flex items-center justify-center py-32 px-8 lg:px-64 pb-12 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div id="contact" className="h-full lg:h-screen flex items-center justify-center py-32 px-8 lg:px-64 pb-12" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="bg-black py-8 lg:py-16 px-4 lg:px-6 rounded shadow-md flex flex-col lg:flex-row items-center justify-between gap-6 w-full max-w-lg lg:max-w-none">
                 <div className="flex flex-col lg:flex-row w-full lg:w-auto justify-center items-center lg:mr-4">
                     <h1 className="text-2xl lg:text-6xl font-bold mb-4 lg:mb-0">Newsletter</h1>
