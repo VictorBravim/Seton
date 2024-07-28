@@ -16,7 +16,7 @@ This project is a React-based web application designed as a furniture shopping s
 1. Clone the repository:
 
 ```
-git clone https://github.com/VictorBravim/Seton.git
+git clone https://github.com/VictorBravim/Seton.git 
 ```
 
 2. Navigate to the project directory:
